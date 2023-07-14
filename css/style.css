@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    color: #bfc1c8; 
+}
+.header{
+    background: #1e202b;
+    color: white;
+}
+.header .container .collapse .active{
+    border-color: #009ad8 !important;
+    color: #009ad8;
+    padding: 5px 25px;
+    border: 2px solid ;
+    border-radius: 30px;
+   
+}
+.header .container .collapse .loc:hover{
+    border-color: #009ad8;
+    color: #009ad8;
+    /* padding: 5px 25px; */
+    /* border: 2px solid  ; */
+    /* border-radius: 30px; */
+}
+.collapse ul li a{
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    border: none;
+    outline: none ;
+    transition: all .5s;
+    
+}
+.log-type{
+    margin-left: 10px;
+}
+.log-type h2{
+    font-size: 20;
+}
+.log-type small{
+    color: #bfc1c8;
+    font-size: 10;
+}
+/*        */
+.img-background{
+    background-image: url(../banner.png);
+    background-position: center center;
+    background-size: cover;
+    height: 60vh;
+}
+.formm{
+    margin-left: 200px;
+}
+#search{
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    height: 55px;
+}
+#submit{
+    border: none;
+    background: #009ad8;
+    padding: 12px 35px;
+    border-radius: 30px;
+    color: white;
+    position: absolute;
+    right: 28%;
+    margin-top: 4px;
+}
+.col-md-4{
+    color: #bfc1c8;
+    /* background-color: #1e202b; */
+    /* background-color: darkslategray; */
+    background-color: #162532;
+}
+.col-md-4 .grade{
+    font-size: 90;
+    font-weight: 700;
+    
+}
+.contii img{
+    width: 35%;
+    /* margin-right: 10px; */
+
+}
+.contii{
+    padding: 15px;
+}
+.foot-head span{
+    margin: 15px;
+}
+.mt-5{
+    width: 40px;
+}
+.centerr{
+  
+    background-color: #262936;
+}
+.headerr{
+  
+}
+.bg-darkkk{
+    background: #1e202b;
+}
+/*  */
+.footer{
+    background: #262936;
+}
+.footer .foot{
+    
+
+}
+#Subscribe{
+    border: none;
+    background: #009ad8;
+    padding: 12px 35px;
+    border-radius: 30px;
+    color: white;
+    position: absolute;
+    right: 1%;
+    margin-top: 4px;
+}
+.icon i{
+    /* padding-top: 63px; */
+    margin: 0 10px;
+    margin-top: 55px;
+    color: #009ad8;
+   font-size: 25;
+   background-color: #1e202b;
+   border-radius: 50%;
+   
+   width: 42px;
+   height: 42px;
+   text-align: center;
+   padding-top: 8px;
+
+
+}
+.icon i:hover{
+        color: white;
+        background-color: #009ad8;
+}
